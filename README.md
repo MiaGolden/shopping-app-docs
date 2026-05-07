@@ -19,3 +19,12 @@ This repository contains documentation and code examples for a mobile shopping a
    pip install requests
 3. Run example:
    python examples/api_example.py
+
+## Project Status
+
+Current version: `1.0.0`
+
+Features under development:
+- Payments
+- Notifications
+- User profiles
