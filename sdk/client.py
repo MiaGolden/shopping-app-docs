@@ -10,3 +10,6 @@ class ShopSDK:
 
     def create_order(self, product_id):
         return self.client.post("/orders", {"product_id": product_id}).json()
+
+def products_paginated(self, page=1, limit=10):
+    return self.client.get(f"/products?page={page}&limit={limit}").json()
